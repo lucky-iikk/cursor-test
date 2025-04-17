@@ -87,6 +87,6 @@ COPY --from=extract build/target/extracted/spring-boot-loader/ ./
 COPY --from=extract build/target/extracted/snapshot-dependencies/ ./
 COPY --from=extract build/target/extracted/application/ ./
 
-EXPOSE 443
+EXPOSE 8443
 
 ENTRYPOINT [ "java", "org.springframework.boot.loader.JarLauncher" ]

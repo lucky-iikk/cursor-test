@@ -12,6 +12,6 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
-        logger.info("hello world");
+        logger.info("hello world0099 未来可期");
     }
 } 
